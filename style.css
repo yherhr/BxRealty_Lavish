@@ -322,8 +322,13 @@ select.fc { cursor: pointer; }
 }
 .listing-addr { font-size: .875rem; color: var(--text-muted); margin-bottom: 14px; }
 .listing-feats {
-  display: flex; gap: 16px; font-size: .78rem; color: var(--dark-grey);
+  display: flex; gap: 18px; font-size: .8rem; font-weight: 500;
+  color: var(--dark-grey);
   padding-top: 13px; border-top: 1px solid var(--light-grey);
+  align-items: center;
+}
+.listing-feats span {
+  display: inline-flex; align-items: center; gap: 4px;
 }
 
 /* ── Services ──────────────────────────────────────────────────── */
